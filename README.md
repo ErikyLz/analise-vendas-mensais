@@ -23,13 +23,19 @@ matplotlib
 ## Como rodar (exemplo)
 1. Criar ambiente (opcional):
 python -m venv .venv
-source .venv/bin/activate   # Linux / Mac
-.venv\Scripts\activate      # Windows
+
+# Linux / Mac
+source .venv/bin/activate
+
+# Windows
+.venv\Scripts\activate
+
 pip install -r requirements.txt
 
-2. Coloque seu CSV na pasta do projeto (ex.: dados/vendas.csv).
+3. Coloque seu CSV na pasta do projeto (ex.: dados/vendas.csv).
 
-3. Rodar:
+4. Rodar:
+
 python app.py
 
 (O app.py deve aceitar o caminho do arquivo ou ter uma variável com o nome do CSV.)
